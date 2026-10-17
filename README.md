@@ -1362,6 +1362,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [GCF Proxy](https://github.com/blackwell-systems/gcf-proxy) | MCP 工具响应压缩代理。零代码接入，将任意 MCP 服务器的 JSON-RPC 响应自动转换为紧凑的 GCF 格式以节省 token，支持 JSON、YAML、TOML、CSV、MessagePack 多种格式。 | 社区实现, Go/Python/Node 开发 🏎️🐍📇, 本地运行 🏠, MIT 许可, token 优化。 |
 | [瑞幸咖啡 MCP](https://open.lkcoffee.com/) | 瑞幸官方远程 MCP：查询附近门店、搜索商品、下单点咖啡。 | 官方实现 (瑞幸) 🎖️, 远程端点 ☁️ `https://gwmcp.lkcoffee.com/order/user/mcp`。 |
 | [Omega MCP Router](https://github.com/Omega-JS-Stack/omega/tree/main/packages/mcp-router) | 单个 stdio MCP 服务器，代理多个上游 MCP 服务器：工具定义缓存在本地磁盘，上游进程在首次调用时才启动、空闲 15 分钟后关闭，每个会话可自行启用或停用上游，减少上下文占用。 | 官方实现 (OMEGA) 🎖️, JavaScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, `npx -y @omega.js/mcp-router`, 附带 omega-mcp CLI 管理上游。 |
+| [Everything2MCP](https://github.com/shcdwz1234/Everything2MCP) | 将本地能力、私网服务、OpenAPI/gRPC/MQTT/队列以及飞书/钉钉/企业微信统一暴露为单一 MCP 面，支持热重载与 Safe 默认。 | 社区实现, TypeScript/Node.js 开发 📇, 本地运行 🏠, `npx everything2mcp`, [Glama](https://glama.ai/mcp/servers/shcdwz1234/Everything2MCP)。 |
 
 ---
 
