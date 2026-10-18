@@ -270,6 +270,13 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
   - **安装**：`cargo install synaps`
   - **Tips**：Apache-2.0 协议，支持 macOS 和 Linux（不支持 Windows），以及 Claude、OpenAI、Gemini 和 Ollama、LM Studio 等本地模型；也可通过 Homebrew、AUR 或 .deb 安装。
 
+- **CUGA**
+  - **简介**：IBM Research 开源的通用智能体框架（agent harness），基于 LangGraph，内置 MCP 客户端。
+  - **功能**：通过 `mcp_servers.yaml` 接入 MCP 服务器（支持 stdio、SSE、HTTP），也可同时接入 OpenAPI 规范和 LangChain 工具；能在同一任务中组合 API 调用与浏览器操作，并内置策略（Intent Guard、Playbook、Tool Approval）与人工审批。
+  - **链接**：[GitHub 仓库](https://github.com/cuga-project/cuga-agent) | [文档](https://docs.cuga.dev)
+  - **安装**：`pip install cuga`
+  - **Tips**：Apache-2.0 协议，Python 开发；支持 OpenAI、watsonx、Azure OpenAI、Groq、OpenRouter、LiteLLM 及兼容 OpenAI 接口的模型服务。
+
 - **其他MCP客户端资源**  
   - [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients)
 
