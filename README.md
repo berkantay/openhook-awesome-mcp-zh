@@ -1501,3 +1501,6 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 Copyright (c) 2025 云中江树
 
 ---
+
+
+- **[Castov MCP Server](https://github.com/castovdev/castov)** - Zero-telemetry local developer execution layer providing 10 deterministic tools for port inspection, IPv4 CIDR subnet calculation, UUIDv7/ULID/Snowflake timestamp decoding, cron scheduling, IANA timezone conversion, JWT inspection, and secret leak scanning.
