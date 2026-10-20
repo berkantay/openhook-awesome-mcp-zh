@@ -450,6 +450,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [shadcn-ui-mcp-server](https://github.com/Jpisnice/shadcn-ui-mcp-server) | 让 LLM 获取 shadcn/ui 组件的结构、用法与源码上下文，生成组件代码时不再靠猜 API。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, MIT, 前端组件库上下文。 |
 | [repomap](https://github.com/SylphxAI/repomap) | 给 AI 编程代理的代码库地图：基于 tree-sitter 的代码图谱（13 种语言），提供 map、search（BM25 + 符号混合检索）、context（代码、调用者与被调用者）、trace（调用路径）、impact（改动影响面，支持 git diff）五个工具，另附交互式 WebGL 图谱界面。 | 社区实现, Rust 开发 🦀, 本地运行 🏠, 跨平台 🍎🪟🐧, 无需 API Key, `npx -y @sylphx/repomap setup` |
 | [RepoGuard](https://github.com/taylormatematica-beep/repoguard) | 针对 AI 代码库的 ~12ms 极速架构守卫与 AST 规则检查器：拦截 AI 越层违规访问数据库、泄露敏感环境变量，并自动生成 Cursor 与 Claude Code 架构规则文件。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, MIT 开源, `npx -y repoguard-rules@1.6.1 mcp`。 |
+| [Seonix SEO MCP](https://github.com/seonix-ai/seonix-mcp) | 只读审计任意网站的 SEO、GEO/AEO（AI 搜索可见性）与页面速度问题：从 sitemap.xml 发现页面，约 75 项检查，每个问题附带与平台无关的修复建议；可为单页生成最小修复方案并做 dry-run 预览，不修改网站。工具：`audit_site`、`speed_audit`、`propose_fixes`、`preview_fix`。 | 官方实现 (Seonix) 🎖️, TypeScript 开发 📇, 本地运行 🏠, MIT 开源, 无需账号，可选 `PAGESPEED_API_KEY` 获取 Core Web Vitals。 |
 
 
 ---
