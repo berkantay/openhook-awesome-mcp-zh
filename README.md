@@ -286,6 +286,12 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
   - **链接**：[xianyu-sheng/Xenon](https://github.com/xianyu-sheng/Xenon)
   - **Tips**：安装：`pip install` GitHub Releases 提供的 wheel（30 秒装好，无需 PyPI）；首次运行会引导配置模型 Key，`/evidence` 可随时自验会话证据链。  
 
+- **BayesChat**  
+  - **简介**：iPhone / iPad 上的 BYOK 聊天客户端，可连接远程 MCP Server，并在对话里直接调用其工具。  
+  - **功能**：支持 Streamable HTTP 远程 MCP Server，认证可选 Bearer Token 或自定义 Header；添加 Server 时点一次「Validate & Fetch Tools」即拉取工具清单，并可逐个开关；工具调用以卡片内联在对话中，显示参数、耗时、token 变化与返回内容，失败可原地重试、进行中可取消；模型侧支持 OpenAI / Anthropic / Gemini / OpenRouter 及任意 OpenAI 兼容端点，可与长期记忆、会话预设搭配使用。iOS 无法启动本地进程，因此不支持 stdio Server。  
+  - **链接**：[官网](https://bayeschat.xyz) | [App Store](https://apps.apple.com/app/id6777948055)  
+  - **Tips**：免费下载，MCP 工具、长期记忆等为一次性 Pro 解锁；无需注册账号，API Key 与 MCP 凭证保存在设备 Keychain；App Store 仅上架 iOS / iPadOS，Apple 芯片 Mac 上以 iPad App 形式运行。  
+
 ## MCP 服务器精选列表
 
 模型上下文协议 (MCP) 服务器是赋予 AI 模型与外部工具、数据和系统交互能力的“工具箱”。以下是按不同应用场景精选的 MCP 服务器列表，按场景和质量（官方/参考 > 常用/成熟 > 社区/特定）排序，方便中文用户查找和使用。
