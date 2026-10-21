@@ -1501,3 +1501,5 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 Copyright (c) 2025 云中江树
 
 ---
+
+- **[Ghost Beacon (agent-oracle-beacon)](https://github.com/moecanales/agent-oracle-beacon)** - U.S. Residential IP web fetch, DNS/TLS health audit, Base-Reality Bitcoin PoW thermodynamic anchor, and 72-tape plain-text Markdown Vault.
