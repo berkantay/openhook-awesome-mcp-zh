@@ -1184,6 +1184,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Jam0k/Threat-Intelligence-MCP](https://github.com/Jam0k/Threat-Intelligence-MCP) | ThreatCluster 威胁情报：事件聚类、已验证 IOC、CVE/KEV/EPSS 查询、勒索软件泄露站受害者、实体画像。托管端点 `https://threatcluster.io/mcp`，或 `npx -y threatcluster-mcp`，需免费 API key。 | 官方实现 (ThreatCluster) 🎖️, Node/Python 开发, 云端/本地 🏠☁️, 威胁情报。 |
 | [keystash](https://github.com/thu-lawyer/keystash) | 本地单文件加密的密钥库，`keystash mcp` 把它变成 MCP 服务器：AI 能把密钥注入命令的环境变量、复制进剪贴板或生成新密钥，但始终看不到明文值；另有 `doctor` 扫描散落各处的明文密钥。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 跨平台 🍎🪟🐧（Touch ID 解锁为 macOS）, MIT, `pip install keystash` / `uvx keystash mcp`, 8 个工具。 |
 | [vmoranv/jshookmcp](https://github.com/vmoranv/jshookmcp) | 面向前端 / JavaScript 逆向的 MCP 工作区：运行时 Hook、网络拦截（含 TLS keylog）、bundle 反混淆、CDP 控制真实 Chrome、WASM 反汇编；735 工具 / 36 域。search-first —— 只注入约 3K token 的工具摘要、按需激活域，避免 735 个 schema 撑爆上下文。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 前端逆向工程 (JS/WASM)。 |
+| [Preloop](https://github.com/preloop/preloop) | 开源 AI 智能体控制平面与软件工厂：每一次工具调用和模型调用都会被允许、拒绝或交由人工审批，计入预算并记录；智能体可由工单、Webhook 和 CI 触发，在托管容器或自有 runner 中运行，以 Pull Request 交付成果。 | 官方实现 🎖️, Python 开发 🐍, 云端/本地 🏠☁️, MCP 代理与网关，远程端点 `https://preloop.ai/mcp/v1`（Streamable HTTP），Apache-2.0，可用 Docker Compose 或 Helm 自托管。 |
 
 ---
 
