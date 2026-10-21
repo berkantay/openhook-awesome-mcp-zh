@@ -966,6 +966,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Office-Word-MCP-Server](https://github.com/GongRzhe/Office-Word-MCP-Server) | 基于 python-docx 的 Word 文档 MCP：创建、读取与编辑 .docx，支持样式、表格、图片、页眉页脚与批注。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, Word 文档处理。 |
 | [Office-PowerPoint-MCP-Server](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server) | 基于 python-pptx 的 PowerPoint MCP：让 AI 创建与修改 .pptx，操作幻灯片、文本框、图表与图片。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, PPT 生成与编辑。 |
 | [dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) | 网文作者的本地章节体检工具集：16 个工具覆盖章节统计、风格基线自检、伏笔与剧情线登记、连贯性/OOC 审计、关键词与句式分析、本地语义检索；全离线运行，无需 API Key。 | 社区实现, TypeScript 📇, 本地运行 🏠, 跨平台 🍎🪟🐧 |
+| [JustFill MCP (justfill-mcp)](https://github.com/mrmaciej1/justfill-mcp) | 面向现有 PDF 表单（含扫描件与扁平 PDF）的 MCP 服务器：让 AI 检测并审阅字段布局，基于结构化 JSON 数据填充 PDF 并复用已审阅的表单模板；在线文档见 [justfill.app/mcp](https://justfill.app/mcp)。 | 官方实现 (JustFill) 🎖️, Python 开发 🐍, 云端/本地 ☁️🏠, 远程端点 `https://justfill.app/api/mcp` (OAuth) 或 `uvx justfill-mcp`, MIT, PDF 表单自动填充。 |
 
 ---
 
