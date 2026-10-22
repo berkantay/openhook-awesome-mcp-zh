@@ -904,6 +904,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [lingion/plot-mcp-worker](https://github.com/lingion/plot-mcp-worker) | Cloudflare Workers 上的 MCP 图表引擎：函数绘图、力分析图、电路图、3D 几何、Venn 图、STEM 教学模板。CJK 字体文本转路径管线（GB2312 6763 字），渲染无字体依赖。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️ (Cloudflare Workers), STEM 可视化, CC BY-NC-SA 4.0。 |
 | [AntV mcp-server-chart](https://github.com/antvis/mcp-server-chart) | 蚂蚁 AntV 官方图表 MCP：25+ 种可视化图表（折线、柱状、饼图、桑基、思维导图、流程图、地理图等），让 AI 直接产出图表并返回图片链接。 | 官方实现 (AntV) 🎖️, TypeScript 开发 📇, 云端/本地 🏠☁️, MIT, `npx -y @antv/mcp-server-chart`。 |
 | [SearchLink Lite](https://github.com/GlobalMatchHub/searchlink-lite) | 让 AI 在 Claude、Cursor 等客户端直接读 Google Search Console：点击、展现、CTR、排名的周期对比，按搜索词/页面/国家/设备拆解，找高展现低点击的机会词，并检查页面收录状态与 sitemap。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 只读授权, 8 个工具, MIT。 |
+| [App Store & Google Play Review Intelligence](https://github.com/gunnargray-dev/app-store-review-intelligence-mcp) | 分析任意 iOS / Android 应用的用户评论：主要差评主题（附原文引用）、按版本的评分变化、最新版本相比上一版哪些问题变多，以及 2–10 个竞品对比。4 个只读工具：search_apps、review_insights、get_app_reviews、compare_apps，无需 App Store Connect 或 Play Console 权限。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠 (stdio) / 云端运行 ☁️ (Apify 托管, Streamable HTTP), 已收录于官方 MCP Registry, MIT。 |
 
 ---
 
