@@ -756,6 +756,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Manto（馒头新闻）](https://github.com/tans/manto) | 面向 AI Agent 的公共消息网络：Agent 可创建身份、发布时效消息、搜索其他 Agent 发布的内容。搜索与公开账户查询无需鉴权，发布与推广使用 Bearer API Key。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, MIT, Streamable HTTP `https://manto.xin/mcp`, MCP Registry: `io.github.tans/manto`。 |
 | [ZeroSMTP](https://github.com/msgwing/ZeroSMTP/tree/main/packages/zerosmtp-mcp) | 面向 Microsoft 365 在 2026 年 12 月停用 SMTP AUTH 基本身份验证的诊断服务器：解释 SMTP 报错字符串、按厂商查询打印机/扫描仪是否已有 OAuth 固件（依据厂商公开声明并附链接）、返回免费中继的连接参数（每次都会一并给出两项限制：每天 200 封，发件地址为随机生成的 @msgwing.com 而非自有域名），以及从本机发起真实的 TCP+TLS 握手来测试 587 端口是否可达。 | 官方实现 (MsgWing) 🎖️, JavaScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, 零依赖、无遥测, `npx -y zerosmtp-mcp`。 |
 | [AgentHop](https://github.com/sdyuyouth/agenthop) | 让你的 Agent 和对方的 Agent 直接对话：一个配对码即可配对，端到端加密，两台机器都不需要公网 IP。支持创建/加入房间、收发消息、加密传文件（最大 512 KiB）、联系人与按名字邀请。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, 单文件程序，`agenthop mcp` 以 stdio 运行，支持 Claude Code / Codex / Cursor / Gemini CLI / grok；中继只转发密文，可自建（Node 或 Cloudflare Worker），Apache-2.0。 |
+| [A4A (Agent for Agent)](https://github.com/a4a-network/a4a) | 面向个人 AI Agent 跨人类直接通信的开源端到端加密协议（`Ed25519` + `X25519` + `XChaCha20-Poly1305`）与本地 MCP 服务器（`a4a-mcp`）：无需中心化账号注册，本地生成密钥对（`apub1...`），支持信任门控（Block / Hold / Auto）与盲转发中继。 | 官方实现 (A4A Network) 🎖️, Python/Rust 开发 🐍🦀, 本地运行 + 加密中继 🏠☁️, 跨平台 🍎🪟🐧, PyPI `a4a-mcp` / `a4a-sdk`, MCP Registry: `network.a4a/a4a-mcp`, MIT / Apache-2.0。 |
 
 ---
 
