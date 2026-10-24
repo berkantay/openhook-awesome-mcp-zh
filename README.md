@@ -349,6 +349,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [WebIntel](https://github.com/1036007003-wq/webintel-mcp) | 网页情报采集 MCP 服务器：正文提取（自动去广告/导航/页脚）、DuckDuckGo 搜索、SEO 与 Open Graph 元数据、内外链分类、JSON-LD / 表格 / CSS 选择器结构化抽取、联系方式提取，共 8 个工具。 | 社区实现, Python 开发 🐍, 本地运行 🏠, FastMCP, MIT 许可, 自建部署无需 API key。 |
 | [browser-tools-mcp](https://github.com/AgentDeskAI/browser-tools-mcp) | 把浏览器的控制台日志、网络请求、DOM 元素与截图直接喂给 Cursor 等 MCP 客户端，并可跑 Lighthouse 审计（性能/可访问性/SEO），前端调试不用再手工复制粘贴。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 需配套 Chrome 扩展, MIT。 |
 | [Duplex](https://github.com/Eric-huang799/duplex) | 人与 AI 共用的桌面浏览器：人看渲染后的页面，AI 读 DOM/源码并驱动你正在看的那一个标签页（同一个实时会话）。提供 24 个 MCP 工具（snapshot/点击/输入/拖拽/上传/截图/页面标注等）；人机协作有明确优先级——你滚动、输入或点击时 AI 自动让路并逐页暂停，顶部状态条可一键交还；支持内置模型与 opencode / Codex / Claude Code / 任意 MCP 客户端。 | 社区实现, TypeScript/Electron 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, 人类优先协作, 安装：GitHub Releases（安装包内含 stdio 桥接）, MIT 开源。 |
+| [toolkb-mcp](https://github.com/jack-reson8/toolkb-mcp) | 把 YouTube 视频和播放列表（带时间戳的字幕）、网页正文（Markdown）以及 App Store 评论读成文本交给模型，无需 API Key 和账号。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, `npx -y github:jack-reson8/toolkb-mcp`，提供 4 个工具，MIT 许可。 |
 ---
 
 ### 💻 开发与代码执行
