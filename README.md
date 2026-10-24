@@ -270,6 +270,12 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
   - **安装**：`cargo install synaps`
   - **Tips**：Apache-2.0 协议，支持 macOS 和 Linux（不支持 Windows），以及 Claude、OpenAI、Gemini 和 Ollama、LM Studio 等本地模型；也可通过 Homebrew、AUR 或 .deb 安装。
 
+- **Knovum**  
+  - **简介**：开源的本地优先无限画布 AI 知识空间，内置 MCP 客户端。  
+  - **功能**：基于 Tauri 2 + Vue 3 构建，提供 60fps 硬件加速无限 2D 画布，全面兼容开放的 JSON Canvas 规范；内置 SQLite 本地元数据与 LanceDB 嵌入式向量引擎，支持端侧离线语音会议转录（Whisper + FFmpeg）与本地 RAG 检索追溯；原生支持通过 MCP 协议连接外部工具与 AI Agent 工作流。  
+  - **链接**：[GitHub 仓库](https://github.com/madebyzan/knovum)  
+  - **Tips**：完全开源，数据 100% 物理留存于本地机器，支持 macOS 与 Windows 跨平台客户端。
+
 - **其他MCP客户端资源**  
   - [awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients)
 
