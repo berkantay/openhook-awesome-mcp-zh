@@ -60,6 +60,7 @@
 - [许可证](#许可证)
 
 ---
+| [ddevetak/footballcharts-mcp](https://github.com/ddevetak/footballcharts-mcp) | 免费足球数据 MCP 服务器：98 个联赛（含中超、大量低级别联赛和女足联赛）的赛果、半场比分、进球时间分布、积分榜和赛程，无需注册即可使用。 | 官方实现, JavaScript 开发, 云服务 ☁️, 10 个工具, 托管端点 mcp.football-charts.com。 |
 
 ## MCP 是什么？
 
