@@ -904,6 +904,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [lingion/plot-mcp-worker](https://github.com/lingion/plot-mcp-worker) | Cloudflare Workers 上的 MCP 图表引擎：函数绘图、力分析图、电路图、3D 几何、Venn 图、STEM 教学模板。CJK 字体文本转路径管线（GB2312 6763 字），渲染无字体依赖。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️ (Cloudflare Workers), STEM 可视化, CC BY-NC-SA 4.0。 |
 | [AntV mcp-server-chart](https://github.com/antvis/mcp-server-chart) | 蚂蚁 AntV 官方图表 MCP：25+ 种可视化图表（折线、柱状、饼图、桑基、思维导图、流程图、地理图等），让 AI 直接产出图表并返回图片链接。 | 官方实现 (AntV) 🎖️, TypeScript 开发 📇, 云端/本地 🏠☁️, MIT, `npx -y @antv/mcp-server-chart`。 |
 | [SearchLink Lite](https://github.com/GlobalMatchHub/searchlink-lite) | 让 AI 在 Claude、Cursor 等客户端直接读 Google Search Console：点击、展现、CTR、排名的周期对比，按搜索词/页面/国家/设备拆解，找高展现低点击的机会词，并检查页面收录状态与 sitemap。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 只读授权, 8 个工具, MIT。 |
+| [MarketMirror](https://github.com/DarkWorldCoder/market-mirror) | 营销与销售模拟：基于 MiroFish / OASIS，用做过生活访谈的 LLM 模拟买家在社交信息流中看广告、发帖讨论、回答问卷、试听销售话术，输出“上线 / 迭代 / 放弃”报告与离线 HTML 仪表盘；可用真实广告数据回测。 | 社区实现, Python 开发 🐍, 本地运行 🏠, PyPI: `uvx marketmirror`, AGPL-3.0。 |
 
 ---
 
