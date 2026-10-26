@@ -1382,6 +1382,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 
 
 - [Persona](https://github.com/jayamitkatariya/personacli) - Local-first personal workspace: notes, tasks, and AI chat over plain Markdown files. Connects to Ollama for free private AI.
+- **[Level Open Finance MCP](https://github.com/levelcfo/open-finance-skills)** - 提供 20 项开源企业财务月结、总账核对、ASC 606/330 收入与存货核算及行业财务基准查询的 MCP 服务器（[在线文档与基准](https://levelcfo.com/finance-systems/)）。
 ## MCP 更多玩法
 
 * [mcp-agent](https://github.com/lastmile-ai/mcp-agent): Build effective agents using Model Context Protocol and simple workflow patterns
