@@ -1018,7 +1018,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Venut-Technologies/engine-dj-mcp](https://github.com/Venut-Technologies/engine-dj-mcp) | 让 Claude 等 AI 助手查询本地 Engine DJ（Denon）音乐库：按 BPM 与 Camelot 调性搜索曲目，检查重复和丢失的文件，读取 cue 点与节拍网格，并可按需创建播放列表或修改标签（需显式开启，首次写入前自动备份）。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, macOS 🍎, 非官方, `npx -y engine-dj-mcp`。 |
 | [Venut-Technologies/serato-dj-mcp](https://github.com/Venut-Technologies/serato-dj-mcp) | 让 AI 助手查询本地 Serato DJ 音乐库：按 BPM 与 Camelot 调性做和声混音搜索，浏览 crate，检查重复和丢失的文件，并在预览确认后才写入新的 crate。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, macOS 🍎, 非官方, 另提供 Claude Desktop 扩展 (.mcpb), `npx -y serato-dj-mcp`。 |
 | [Venut-Technologies/bandcamp-mcp](https://github.com/Venut-Technologies/bandcamp-mcp) | 无需账号或 API Key，让 AI 助手在 Bandcamp 上发掘音乐：搜索艺人、专辑、厂牌和单曲，按流派标签浏览新作与热门，查看曲目列表和价格。只读。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 跨平台 🍎🪟🐧, 非官方, `npx -y bandcamp-mcp`。 |
-| [Feeling Search](https://github.com/xixi048/feeling-search-mcp) | 把一句口语化的感受描述（例如「留白很多，几何克制，低饱和」）拆解成 762 个中文感受词与 598 种视觉风格，返回命中的词、对应风格标签及其配色与材质线索；另含词条反查、风格详情、词表状态，共 5 个工具。适合让 AI 在写绘画提示词之前，先把模糊的审美描述落到具体词上。 | 社区实现, JavaScript 开发 📇, 云端/本地 🏠☁️, 远程端点 `https://xiximm.cloud/mcp` (Streamable HTTP)，或 `npx -y feeling-search-mcp` (stdio), MIT, 免费词库完整可用, 已收录官方 MCP Registry (`cloud.xiximm/feeling-search`)。 |
+| [Feeling Search](https://github.com/xixi048/feeling-search-mcp) | 把一句口语化的感受描述（例如「留白很多，几何克制，低饱和」）检索成最匹配的视觉风格，并给出触发它的感受词（背后是一份中文美术对照表），返回风格标签、对应风格标签及其配色与材质线索；另含词条反查、风格详情、词表状态，共 5 个工具。适合让 AI 在写绘画提示词之前，先把模糊的审美描述落到具体词上。 | 社区实现, JavaScript 开发 📇, 云端/本地 🏠☁️, 远程端点 `https://xiximm.cloud/mcp` (Streamable HTTP)，或 `npx -y feeling-search-mcp` (stdio), MIT, 免费词库完整可用, 已收录官方 MCP Registry (`cloud.xiximm/feeling-search`)。 |
 
 ---
 
