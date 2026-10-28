@@ -964,6 +964,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [open-mcp-apps](https://github.com/2nd1st/open-mcp-apps)                | 开源 MCP Apps 引擎：AI 按需写出可交互的 UI 应用（待办看板、习惯打卡、仪表盘等），保存后可在后续任意对话中按名字直接打开；数据存放在独立的 collections 里，跨会话留存。内置 22 个现成应用的应用商店。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, 33 个工具, 一行 `npx -y @2nd1st/open-mcp-apps` 安装。 |
 | [n8n-mcp](https://github.com/czlonkowski/n8n-mcp) | 让 Claude Code / Cursor / Windsurf 直接构建 n8n 工作流：提供 n8n 全部节点的文档、参数与校验能力，AI 生成的工作流可先校验再部署。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, MIT, n8n 工作流自动化。 |
 | [Office-Word-MCP-Server](https://github.com/GongRzhe/Office-Word-MCP-Server) | 基于 python-docx 的 Word 文档 MCP：创建、读取与编辑 .docx，支持样式、表格、图片、页眉页脚与批注。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, Word 文档处理。 |
+| [md-to-word](https://github.com/ls-open/md-to-word) | 确定性 Markdown 转出版级 Word（.docx）编译器：原生公式转 OMML、三线表、GB/T 7714 参考文献与带行号门禁，支持 Claude Desktop / Cursor 免安装（uvx）直接挂载，并附带在线体验站。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 跨平台 🍎🪟🐧, MIT, 学术与研报出版级排版。 |
 | [Office-PowerPoint-MCP-Server](https://github.com/GongRzhe/Office-PowerPoint-MCP-Server) | 基于 python-pptx 的 PowerPoint MCP：让 AI 创建与修改 .pptx，操作幻灯片、文本框、图表与图片。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, PPT 生成与编辑。 |
 | [dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) | 网文作者的本地章节体检工具集：16 个工具覆盖章节统计、风格基线自检、伏笔与剧情线登记、连贯性/OOC 审计、关键词与句式分析、本地语义检索；全离线运行，无需 API Key。 | 社区实现, TypeScript 📇, 本地运行 🏠, 跨平台 🍎🪟🐧 |
 
