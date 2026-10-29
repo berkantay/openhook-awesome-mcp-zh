@@ -1477,6 +1477,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 - [modelcontextprotocol/ext-apps](https://github.com/modelcontextprotocol/ext-apps) MCP Apps 协议官方规范与 SDK，标准化在 AI 聊天界面中嵌入、由 MCP 服务器提供的交互式 UI。
 - [punkpeye/fastmcp](https://github.com/punkpeye/fastmcp) 构建 MCP 服务器的 TypeScript 框架，简洁 API 快速暴露工具/资源/提示词。
 - [langchain-ai/langchain-mcp-adapters](https://github.com/langchain-ai/langchain-mcp-adapters) 官方适配器，将 MCP 工具无缝接入 LangChain / LangGraph Agent。
+- [xmcp](https://github.com/basementstudio/xmcp) 免费、MIT 开源的 TypeScript MCP 服务器框架，支持基于文件的工具、资源与提示词发现、热重载、中间件和现有应用适配器；提供[文档与示例](https://xmcp.dev/docs)。
 
 ---
 
