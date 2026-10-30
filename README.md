@@ -903,6 +903,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [shmlkv/dna-claude-analysis](https://github.com/shmlkv/dna-claude-analysis) | 使用 Claude Code 构建的个人基因组分析工具包，支持 17 个类别的 DNA 数据分析并生成可视化报告。              | 社区实现, Python 开发 🐍, 本地运行 🏠, 基因组数据分析与可视化。                                        |
 | [lingion/plot-mcp-worker](https://github.com/lingion/plot-mcp-worker) | Cloudflare Workers 上的 MCP 图表引擎：函数绘图、力分析图、电路图、3D 几何、Venn 图、STEM 教学模板。CJK 字体文本转路径管线（GB2312 6763 字），渲染无字体依赖。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️ (Cloudflare Workers), STEM 可视化, CC BY-NC-SA 4.0。 |
 | [AntV mcp-server-chart](https://github.com/antvis/mcp-server-chart) | 蚂蚁 AntV 官方图表 MCP：25+ 种可视化图表（折线、柱状、饼图、桑基、思维导图、流程图、地理图等），让 AI 直接产出图表并返回图片链接。 | 官方实现 (AntV) 🎖️, TypeScript 开发 📇, 云端/本地 🏠☁️, MIT, `npx -y @antv/mcp-server-chart`。 |
+| [Showboard](https://github.com/rohanbeingsocial/showboard) | 让 Claude Code、Codex、Cursor 等编程智能体用只读 SQL 查询 Excel、CSV、SQLite 或 Postgres，并把答案画成仪表盘（关键数字、图表和表格），每张图表背后的 SQL 都可查看；仪表盘显示在浏览器、终端窗格或你自己的 React 应用中。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, MIT 许可, Claude Code 插件或 `npx showboard init .`，提供中文 README。 |
 | [SearchLink Lite](https://github.com/GlobalMatchHub/searchlink-lite) | 让 AI 在 Claude、Cursor 等客户端直接读 Google Search Console：点击、展现、CTR、排名的周期对比，按搜索词/页面/国家/设备拆解，找高展现低点击的机会词，并检查页面收录状态与 sitemap。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 只读授权, 8 个工具, MIT。 |
 
 ---
