@@ -471,6 +471,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [olo-dot-io/Uni-CLI](https://github.com/olo-dot-io/Uni-CLI) | 自修复 CLI 目录，将网页、桌面应用、Electron 应用、外部 CLI 作为确定性命令通过一个 MCP 服务器暴露给 AI 代理；声明式 YAML 适配器加结构化错误信封，调用失败时代理可直接编辑 YAML 并重试。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, Apache-2.0；目录规模与每次调用 token 预算见仓库 [README](https://github.com/olo-dot-io/Uni-CLI#readme) 与 [`docs/BENCHMARK.md`](https://github.com/olo-dot-io/Uni-CLI/blob/main/docs/BENCHMARK.md)。 |
 | [5dive MCP](https://github.com/5dive-ai/5dive-mcp) | 5dive 官方 MCP 服务器，把 5dive 智能体舰队 CLI（任务、智能体、摘要）暴露为 MCP 工具，让 MCP 客户端直接调度运行在你自己服务器上的多个自治编码智能体。 | 官方实现 🎖️, JavaScript 开发 📇, 本地运行 🏠, MIT 开源, 已收录于 MCP 官方注册表, 安装：`npx -y @5dive/mcp`。 |
 | [remotify-mcp](https://github.com/onlsol/relay.remotify.run/tree/main/mcp) | 通过 HTTP 中继让 AI 客户端在远程计算机上执行 Shell 命令，可选择逐条人工确认或自动执行；远端仅需 curl 和 bash。工具：`remote_exec`、`remote_session_info`、`remote_session_reset`。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, stdio, Apache-2.0, `npx -y remotify-mcp@latest`。 |
+| [netbka/local-commander-mcp-agent](https://github.com/netbka/local-commander-mcp-agent) | 让 Claude、ChatGPT、Cursor 或 Ollama / LM Studio 本地模型在你自己的 Windows、macOS、Linux 电脑上执行命令、读写和搜索文件、查看 Git、截图；目标电脑无需装 AI 客户端，操作可见、可取消 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, MIT 协议 |
 
 ---
 
