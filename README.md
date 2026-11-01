@@ -275,6 +275,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
   - **链接**：[GitHub 仓库](https://github.com/HaseebKhalid1507/SynapsCLI) | [crates.io](https://crates.io/crates/synaps)
   - **安装**：`cargo install synaps`
   - **Tips**：Apache-2.0 协议，支持 macOS 和 Linux（不支持 Windows），以及 Claude、OpenAI、Gemini 和 Ollama、LM Studio 等本地模型；也可通过 Homebrew、AUR 或 .deb 安装。
+
 - **Mercury CLI**
   - **简介**：面向 macOS、Linux 和 Windows 的开源终端 AI 编程 Agent（TypeScript，Apache-2.0），内置 MCP 客户端（`/mcp`）。
   - **功能**：在终端中检查、登录、浏览各 MCP Server 的工具与参数并按会话启用或停用；支持同屏多会话（`/concourse`）、隔离 git worktree 与文件租约的跨模型子 Agent、22 家模型提供商及本地/租用 GPU 权重（`/localsetup`、`/llmhost`）、跨会话混合 RAG 项目记忆、LSP、DAP 调试器与内置浏览器和桌面控制。
@@ -954,6 +955,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [chrisryugj/kordoc](https://github.com/chrisryugj/kordoc) | 韩国文档解析库、CLI 与 MCP 服务器：将 HWP 3.x/5.x、HWPX、HWPML 以及 PDF、DOCX、XLSX、PPTX 和图片转换为 Markdown 与结构化数据，并支持表单填写、保留格式的文档修改、文档对比和公文样式 HWPX 生成。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, MIT, `npx -y kordoc setup`。 |
 | [DreamOfXM/diskwise](https://github.com/DreamOfXM/diskwise) | macOS 磁盘占用分析与清理工具，通过 MCP 查询目录、缓存、重复文件和应用残留，并执行所支持的清理操作。 | 社区实现, Swift 开发 🍎, 本地运行 🏠, Apache-2.0；需先安装 DiskWise.app，再使用内置的 `diskwise mcp`。 |
 | [LUgABeEEE/minas-webdav](https://github.com/LUgABeEEE/minas-webdav) | 小米智能存储（MINAS）NAS 的 WebDAV 控制工具箱：不挂盘直接列目录、统计、上传下载、移动复制删除文件，附 WebDAV 能力探测、本地反向代理（供映射 N 盘）、CLI、MCP server 与 agent 技能。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 跨平台 🍎🪟🐧, Apache-2.0, `pipx install 'minas-webdav[mcp]'`。 |
+| [Doc2X MCP](https://github.com/NoEdgeAI/doc2x-mcp) | 将 PDF/图片解析为文本与结构化版面，识别公式和表格，并提供文档导出、异步任务查询与本地落盘工具。 | 官方实现 (NoEdgeAI) 🎖️, TypeScript 开发 📇, 本地 stdio 🏠 + 云端 API ☁️, MIT；需自备 `DOC2X_API_KEY`，API 按用量计费。 |
 
 ---
 
@@ -1160,6 +1162,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [wb-mcp-server](https://github.com/DeviceIngineering/wb-mcp-server) | 俄罗斯电商平台 Wildberries 卖家 API 的 MCP 服务器，197 个工具：商品卡片、价格、促销、广告、订单、发货、评价、退货、财务与分析。支持多店铺，令牌加密存储，网页面板可查看每一次调用，内置自诊断（平台改接口时能区分是密钥问题还是 API 变更）。针对上下文预算做过实测优化。 | 社区实现, Python 开发 🐍, 本地运行 🏠, `pip install wb-mcp-server`, Docker/SSE 或 stdio, MIT。适合做俄罗斯跨境电商的中国卖家。 |
 | [ozon-mcp-server](https://github.com/DeviceIngineering/ozon-mcp-server) | 俄罗斯电商平台 Ozon 卖家 API + 广告 API 的 MCP 服务器，156 个工具：价格、促销、广告、FBS/FBO 订单、退货、评价、财务与分析。与 wb-mcp-server 同一套设计，同样针对上下文预算做过实测优化。 | 社区实现, Python 开发 🐍, 本地运行 🏠, `pip install ozon-mcp-server`, Docker/SSE 或 stdio, MIT。 |
 | [marketplaces-mcp-ru](https://github.com/ilyautov/marketplaces-mcp-ru) | 俄罗斯四大电商平台卖家 API 的统一 MCP 服务器：Wildberries、Ozon、Yandex Market、Avito，共 1022 个方法，覆盖销售、订单、库存、价格、财务与评价。方法目录由各平台官方 OpenAPI 规范生成，可用自然语言检索方法；写操作分为 read / write / destructive 三级，改价改库存必须先确认，删除还需额外确认参数，CI 里有测试防止 PUT/PATCH/DELETE 被误标成只读。支持多店铺，密钥存在本地 `~/.marketplace-mcp/cabinets.json`（chmod 600），不进仓库也不进聊天。 | 社区实现, Python 开发 🐍, 本地运行 🏠, `uvx marketplaces-mcp-ru`, 已收录于官方 MCP Registry, MIT。四个平台一次接入；只要一个平台时也可单独安装 ozon-mcp-ru / wildberries-mcp-ru / yandex-market-mcp-ru / avito-mcp-ru。 |
+| [DropshippingLeads MCP](https://github.com/anbani-tech/dropshippingleads-mcp) | 按关键词、类目及已有销售市场标签查询公开商家快照，支持中文类目别名；提供覆盖范围与数据方法说明。 | 官方实现, JavaScript 开发 📇, 云服务 ☁️, 4 个只读工具，无需服务 API Key；代码 MIT，数据另有使用条款，不代表实时信息或购买意向。 |
 
 ---
 
