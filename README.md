@@ -1263,6 +1263,8 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [rishijatia/fantasy-pl-mcp](https://github.com/rishijatia/fantasy-pl-mcp/) | 用于实时 Fantasy Premier League 数据和分析工具的 MCP 服务器。                                   | 社区实现, Python 开发 🐍, 云服务 ☁️, Fantasy Premier League (英超梦幻足球)。                 |
 | [sawa-zen/vrchat-mcp](https://github.com/sawa-zen/vrchat-mcp)        | 与 VRChat API 交互的 MCP 服务器。可获取好友、世界、虚拟形象等信息。 (已在通讯协作部分列出)              | 社区实现, TypeScript 开发 📇, 本地运行 🏠, VRChat API 交互。                                  |
 | [opanel-mc/opanel-mcp](https://github.com/opanel-mc/opanel-mcp) | OPanel服务器管理面板集成MCP服务器，用于大模型辅助管理Minecraft服务器 | 官方实现 (OPanel Project), TypeScript 开发 📇, 本地运行 🏠, OPanel API 交互。 |
+| [gjlmotea/blockhand-mcp](https://github.com/gjlmotea/blockhand-mcp) | Minecraft 教育版（Education Edition）的 MCP 服务器：通过游戏内置的 /connect WebSocket 连接，无需安装附加包；可操控 Agent 机器人、用 24 种形状建造（自动合并成最少的 /fill 指令）、读取方块、比对区域、订阅游戏事件。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠 |
+| [gjlmotea/studio-sidecar-mcp](https://github.com/gjlmotea/studio-sidecar-mcp) | Roblox Studio 内置 MCP 的补完层：打开尚未开启的 place、清理 StudioMCP 进程、以 PlaceId 防止写错游戏、突破 Luau 100k 输出上限，并通过 Open Cloud 上传或更新资源。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠 |
 | [yurineko73/Godot-MCP-Native](https://github.com/yurineko73/Godot-MCP-Native) | Godot 开源引擎的 MCP 插件，使用 Godot 原生 HTTP 实现 MCP Server，无需安装依赖、开箱即用，支持常见 Godot 引擎操作与多种 AI 工具调用。 | 社区实现, GDScript 开发, 本地运行 🏠, Godot 原生实现, 无依赖。 |
 | [HappyLifeOk/cc-3-8-x-mcp](https://github.com/HappyLifeOk/cc-3-8-x-mcp) | Cocos Creator 3.8.x 的 MCP 服务 + 离线 CLI，把编辑器的场景 / 资源 / 预览 / 构建 / 进程控制暴露给 AI 客户端，并附带 headless prefab 读写与命令行打包。 | 社区实现, JavaScript 开发 📇, 本地运行 🏠, Cocos Creator 引擎集成, Apache 2.0。 |
 
