@@ -1175,6 +1175,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [DNA Memory](https://github.com/AIPMAndy/dna-memory) | 本地优先的 AI Agent 统一记忆层：用一个 Markdown / Obsidian 目录当长期记忆，Codex、Claude Code、Hermes 通过同一个 stdio MCP 服务召回、写入和反馈；SQLite 只是可重建的索引。 | 社区实现, Python 开发 🐍, 本地运行 🏠, Apache-2.0, 7 个 MCP 工具，git clone 后 pip install -r requirements-mcp.txt。 |
 | [personal-understanding](https://github.com/caix84476-netizen/personal-understanding) | 原话优先的个人记忆 MCP + Skill：先一字不改保存你的原话，再派生事件、实体与假设，每条结论可回溯到出处；带反编造校验、审计面板与硬闸门。本地运行，仅 Python 标准库，Claude Code / Codex / ZCode 通用。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT, PyPI: `pip install personal-understanding`。 |
 | [CheMiguel23/MemoryMesh](https://github.com/CheMiguel23/MemoryMesh)                | 增强的基于图的记忆，专注于 AI 角色扮演和故事生成。                                                          | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 图记忆 (角色扮演/故事)。                                 |
+| [flybrain-connectome](https://github.com/lm203688/flybrain-connectome) | 通过 MCP 查询果蝇连接组 motif，并据此生成带来源记录的多 Agent 拓扑，支持导出 LangGraph、CrewAI 和 AutoGen 配置。 | 社区实现, Python 开发 🐍, 本地运行 🏠, MIT。 |
 | [cognee-mcp](https://github.com/topoteretes/cognee/tree/main/cognee-mcp)           | GraphRAG 记忆服务器，支持自定义摄取、数据处理和搜索。                                                            | 社区实现, TypeScript 开发 📇, 本地运行 🏠, GraphRAG 记忆。                                            |
 | [codewiki-mcp](https://github.com/izzzzzi/codewiki-mcp)                            | codewiki.google 的 MCP 服务器 - 为开源仓库提供 AI 驱动的 Wiki 文档。搜索仓库、获取 Wiki 内容、提问关于任何仓库的问题。 | 社区实现, TypeScript 开发 📇, 云服务 ☁️, 开源仓库 Wiki 文档。                                         |
 | [entanglr/zettelkasten-mcp](https://github.com/entanglr/zettelkasten-mcp)          | 实现 Zettelkasten 知识管理方法的 MCP 服务器，允许通过 Claude 等客户端创建、链接和搜索原子笔记。                     | 社区实现, Python 开发 🐍, 本地运行 🏠, Zettelkasten 笔记法。                                        |
@@ -1364,6 +1365,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [MeshMend](https://github.com/Keith-CY/meshmend-mcp) | 3D 打印网格（STL / 3MF）检查与修复：报告尺寸、破洞、面朝向反转、壳体里外翻转、非流形边和重复三角形，说明自动修复能否解决，修好的副本存在原文件旁边，也能把 3MF 转成 STL。文件只在本机读写，不联网。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 跨平台 🍎🪟🐧, MIT, 3 个工具, `npx -y meshmend-mcp`。 |
 | [genieacs-mcp](https://github.com/GeiserX/genieacs-mcp) | 面向开源 TR-069 ACS GenieACS 的 MCP 服务器：按标签、型号、固件或任意 TR-069 参数查询路由器、ONT 等 CPE 设备，读取参数、任务与故障，并可重启设备、下发固件、设置参数。 | 社区实现, Go 开发 🏎️, 本地运行 🏠, GPL-3.0, 7 个资源 + 12 个工具, `npx -y genieacs-mcp`。 |
 | [OnlyClaws ESP (onlyclaws-esp)](https://github.com/shinjiyu/onlyclaws-esp) | 给 Agent 一只伸进现实的爪子：ESP32-S3 只烧一次固件，之后通过 HTTP 下发 Lua（屏/音频/传感器/RoArm 机械臂）；另附 stdio MCP（`jev_servo`，机械臂 presence 工具）与 [skill.md](https://onlyclaws.world/api/agent/skill.md)。 | 社区实现, Python/C++ 开发 🐍, 本地可自建控制面 🏠, 嵌入式 📟, MIT, 中英 README。 |
+| [RoboParts](https://github.com/lm203688/roboparts) | 查询跨品牌机器人零件及机械接口资料，检查兼容性；对缺失参数返回未知，并支持生成转接件模型。 | 官方实现 🎖️, JavaScript 开发 📇, 云端/本地 🏠☁️, 远程端点 `https://roboparts.cc/mcp`；代码 MIT，数据 CC BY 4.0，参数来源与置信度见返回结果。 |
 
 ---
 
