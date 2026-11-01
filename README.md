@@ -1081,6 +1081,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [xiaohongshu-mcp-nodejs](https://github.com/ToDieOrNot/xiaohongshu-mcp-nodejs) | 企业级 Node.js 重构版本，支持多账号矩阵管理、反风控、数据采集与发布。 | 社区实现, Node.js 开发 🟢, 矩阵管理, 企业级特性。 |
 | [hot-trending-mcp](https://github.com/boy-373/hot-trending-mcp) | 中文全网热榜聚合 MCP：一次调用获取微博、知乎、B站、百度、头条、抖音、贴吧、掘金 8 大平台实时热搜/热榜，数据缓存 5 分钟。 | 社区实现, Python 开发 🐍, 免费云端 ☁️ 远程 `https://mcp.pianam.cn/hot-mcp/mcp`，无需 API Key，限流 60 次/分，MIT。 |
 | [采诗（caishi）](https://github.com/ZhongQuinnKing/caishi) | 让 AI 读取中文平台内容的 MCP 服务器：B站视频、抖音分享链接、小红书笔记与任意网页正文；走你自己已登录的浏览器会话，只读，不做批量。 | 社区实现, Node.js 开发 🟢, 本地运行 🏠, npm: `npm install -g caishi-mcp`。 |
+| [BusyBee MCP](https://github.com/danfeistar/busybee-mcp) | 一套统一字段读六个平台的公开数据：TikTok、Instagram、YouTube、X（Twitter）、抖音、小红书的达人、内容、评论、评论洞察与热榜。只读数据，按次计费；支持 MCP 远程接入、本地 `uvx busybee-mcp`、REST 三种方式。 | Python 开发 🐍, 六平台数据采集, MCP 远程 + 本地包, 按次计费 |
 
 ---
 
